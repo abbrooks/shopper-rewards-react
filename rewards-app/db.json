@@ -1,0 +1,30 @@
+{
+    "users":[
+        {
+            "_id":1,
+            "username":"user1",
+            "password":"password1",
+            "transactions":[
+                {
+                    "datetime":"2019-01-01:13:00:00",
+                    "transaction-total":300
+                }
+            ]
+        },
+        {
+            "_id":2,
+            "username":"user2",
+            "password":"password2",
+            "transactions":[
+                {
+                    "datetime":"2019-01-01:13:00:00",
+                    "transaction-total":300
+                },
+                {
+                    "datetime":"2019-01-02:13:00:00",
+                    "transaction-total":100
+                }
+            ]
+        }
+    ]
+}
