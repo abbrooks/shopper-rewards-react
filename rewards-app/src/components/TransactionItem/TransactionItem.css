@@ -1,0 +1,19 @@
+.transactionItemContainer{
+    width: 600px;
+    border-radius: 24px;
+    padding: 40px 80px;
+    margin: 30px auto;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactionItemContainer > p{
+    padding: 10px 0px;
+}
+
+@media(max-width: 760px){
+    .transactionItemContainer{
+        width: 260px;
+        padding: 20px;
+    }
+}
+

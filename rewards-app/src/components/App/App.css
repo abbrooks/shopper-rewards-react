@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 400;
+}
+
+input,button{
+  border: none;
+  display: block;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+p{
+  font-weight: 100;
+}

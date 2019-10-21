@@ -1,0 +1,41 @@
+.dashboardContainer{
+    display: none;
+    margin: 0 auto;
+    padding-top: 180px;
+    padding-bottom: 700px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: white;
+}
+
+#welcome{
+    font-size: 50px;
+}
+
+.dashboardContainer > h2{
+    margin: 60px auto;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.totalPointsContainer{
+    color: white;
+    background: #706BFF;
+    width: 260px;
+    border-radius: 30px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+}
+
+.totalPointsContainer > h3{
+    font-size: 40px;
+}
